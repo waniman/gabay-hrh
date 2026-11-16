@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 tools/team.py:*)",
+      "Bash(git status:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git tag:*)",
+      "Bash(git log:*)",
+      "Bash(git show:*)",
+      "Bash(git remote get-url:*)",
+      "Bash(pdftotext:*)"
+    ]
+  }
+}

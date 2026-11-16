@@ -1,0 +1,46 @@
+# Agent Team settings.
+# /setup writes team.config.yaml from this file by asking the lead five questions.
+# Run /setup again to change an answer. Add-ons are off unless switched on.
+
+lead: "Juhani Capeding"      # name shown as project lead
+track_changes_author: "Juhani Capeding"   # author of every tracked change and comment the team writes into Word files
+github_owner: "waniman"      # filled by /setup from the git remote
+template_repo: "waniman/agent-team"
+style_guide: "style/voice-technical-writing.md"   # technical products only (policy briefs, technical reports, country profiles, frameworks, concept notes, evidence summaries); not journal manuscripts
+run_time_limit_minutes: 45   # a run stops here and hands over through state.md
+
+health_check:                # weekly health check (core/learning-and-oversight.md); thresholds in days unless stated
+  day: Monday                # the weekday a check is due
+  memo_overdue_amber_days: 1
+  memo_overdue_red_days: 5
+  gate_wait_amber_days: 5
+  gate_wait_red_days: 10
+  checkpoint_gap_amber_days: 7
+  checkpoint_gap_red_days: 14
+  idle_runs_amber: 2         # runs in a row that moved nothing
+  idle_runs_red: 4
+  time_limit_runs_amber: 2   # runs in a row that hit the time limit on one task
+  time_limit_runs_red: 3
+  days_per_stage_amber: 3    # days to a work package's deadline per stage left; flagged when fewer
+  days_per_stage_red: 1.5
+  wp_overdue_amber_days: 1   # a work package past its brief's deadline and not signed off
+  wp_overdue_red_days: 7
+  wp_blocked_amber_days: 7   # a work package waiting on another work package
+  wp_blocked_red_days: 14
+
+addons:
+  drive_sync:                # Drive folders for reading and comments, and the register sheet
+    on: true
+    folder_id: "1DkVik9m032PR3Hsa9LrXgBASmvN7r8AQ"   # Agent Team folder
+    sheet_id: "1C08msI-_jdJYtvQfkd6xb96nE-7vkKtGoQDIaHkCaT8"   # Agent Team Register
+    share_with: "juhani.capeding@gmail.com"
+  tracker_task:              # turn each decision memo into a task in the lead's tracker
+    on: true
+    tracker: "https://claude.ai/artifact/4piKEnUAyDsM7hQ8xaUMT8"   # Juhani's Desk
+    mapping: "Desk database, collection items. One document per memo or gate: id agent-team-<repo>-<EM-NNN or gate>; type todo; title '<EM-NNN> (<WPn>): <issue>' or 'Approve the <stage> (<WPn>): <project>', with no work package for a memo on the project as a whole; status open, set to done when answered; due = memo Needed by; notes = memo link and how to answer; source agent-team; area and target left empty unless the lead sets them."
+  phone_notify:              # alert the lead's phone for urgent memos only
+    on: true
+  scheduled_runs:            # start a run every day at a set time
+    on: true
+    time: "04:24"
+    timezone: "Asia/Manila"

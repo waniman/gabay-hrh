@@ -1,0 +1,46 @@
+# Agent Team settings.
+# /setup writes team.config.yaml from this file by asking the lead five questions.
+# Run /setup again to change an answer. Add-ons are off unless switched on.
+
+lead: ""                     # name shown as project lead
+track_changes_author: ""     # author of every tracked change and comment the team writes into Word files; /setup sets the lead's name
+github_owner: ""             # filled by /setup from the git remote
+template_repo: ""            # owner/agent-team, filled by /setup
+style_guide: ""              # optional: path to a writing style guide; it applies only to the document types its Scope section covers
+run_time_limit_minutes: 45   # a run stops here and hands over through state.md
+
+health_check:                # weekly health check (core/learning-and-oversight.md); thresholds in days unless stated
+  day: Monday                # the weekday a check is due
+  memo_overdue_amber_days: 1
+  memo_overdue_red_days: 5
+  gate_wait_amber_days: 5
+  gate_wait_red_days: 10
+  checkpoint_gap_amber_days: 7
+  checkpoint_gap_red_days: 14
+  idle_runs_amber: 2         # runs in a row that moved nothing
+  idle_runs_red: 4
+  time_limit_runs_amber: 2   # runs in a row that hit the time limit on one task
+  time_limit_runs_red: 3
+  days_per_stage_amber: 3    # days to a work package's deadline per stage left; flagged when fewer
+  days_per_stage_red: 1.5
+  wp_overdue_amber_days: 1   # a work package past its brief's deadline and not signed off
+  wp_overdue_red_days: 7
+  wp_blocked_amber_days: 7   # a work package waiting on another work package
+  wp_blocked_red_days: 14
+
+addons:
+  drive_sync:                # Drive folders for reading and comments, and the register sheet
+    on: false
+    folder_id: ""            # the Agent Team folder, filled on first use
+    sheet_id: ""             # filled when the sheet is first created
+    share_with: ""           # email the sheet is shared with
+  tracker_task:              # turn each decision memo into a task in the lead's tracker
+    on: false
+    tracker: ""              # link to the tracker
+    mapping: ""              # how memo fields map to tracker fields, recorded on first use
+  phone_notify:              # alert the lead's phone for urgent memos only
+    on: false
+  scheduled_runs:            # start a run every day at a set time
+    on: false
+    time: "06:30"
+    timezone: ""             # e.g. Asia/Manila
