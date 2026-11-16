@@ -11,6 +11,12 @@ Drive folder "Gabay HRH": https://drive.google.com/drive/folders/1gQLpugglGXGCvw
 | Response to RCWI comments, 2026 | Response to RCWI Comments (Google Doc); PDF "Gabay HRH - Response to Comments v.Aug31.pdf" | Drive ids `1Hme5-aCpJshzkEgbKAvLS_M3BXBsnqj0jRRWNQtvZ2g`, `1PWOcwnL2Ov8nhPcS3XtY-tctwTN-v6re` | 2026-11-16 (Google Doc only) |
 | Concept note, 2026 | Concept Note - Paracelis (clean).pdf | Drive id `1tcTBjHSq9ZWBzQQ2ItfHZTnZWvfz8CVN` | 2026-11-16 |
 
+## DOH guides and related issuances (scan of 2026-11-16, D-006)
+
+Public PDFs saved unchanged in `doh-hrh-guides/` by the evidence checker. The finding that cites each file gives its link and SHA-256 (`project/wp/WP1-gabayhrh-2-0-proposal/work/evidence.md`, E-001 to E-036). All findings are first pass until verified (`project/wp/WP1-gabayhrh-2-0-proposal/reviews/verification-01.md`).
+
+The official DOH and HHRDB sites (doh.gov.ph, hhrdb.doh.gov.ph) and the Official Gazette could not be reached from this session on 2026-11-16. Parts of the DOH "Health Workforce Planning Tool Kit" were seen only as user uploads on Scribd and were not saved.
+
 ## In the Drive folder, not yet read
 
 - Letter to Ateneo.pdf (letter of intent from the Municipality of Paracelis)
