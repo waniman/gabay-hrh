@@ -19,7 +19,14 @@
         "id": "1GlQiRNr-XBsz0c0-DiKlt2k217aC48By",
         "title": "WP1 GabayHRH 2.0 proposal"
       },
-      "documents": {}
+      "documents": {
+        "brief": {
+          "id": "1aAscByrIi8jxON32OIxf4Lj5XNCSEEYlsInGihdem8E",
+          "source": "project/wp/WP1-gabayhrh-2-0-proposal/brief.md",
+          "mirrored": "2026-11-16",
+          "gate": "EM-002"
+        }
+      }
     }
   },
   "register_sheet": {

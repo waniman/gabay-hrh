@@ -11,7 +11,7 @@ Each work package keeps its own state in `project/wp/<WPn-name>/state.md`. `pyth
 
 ## Waiting on the lead
 
-- Nothing open. EM-001 (project frame) approved on 2026-11-16 (D-004, D-005, D-006). The WP1 brief gate memo goes out once the DOH guide scan is verified.
+- EM-002 (WP1). Gate: approve the WP1 brief, the baseline and who holds the master copy (needed by 2026-11-20). Recommends Option B: the ACRI team finishes its drafting pass, the lead names a freeze date, then the master moves to the repository (D-007, proposed). Also asks seven facts.
 
 ## Work packages approved in the frame, not yet created
 
@@ -24,7 +24,9 @@ WP2 Paracelis LGU HRH diagnostic profile; WP3 Guide for LGU health workforce pla
 ## Notes for the next run
 
 - Frame approved 2026-11-16 (EM-001). Checkpoint `cp-project-frame-02`. Stage: delivery.
-- WP1 is at its brief stage. Open: the evidence scan on the DOH guide for LGUs (D-006), its verification by a separate call, then the brief gate memo (EM-002) with the facts EM-001 asked and the lead did not supply: 2.0 funder and deadline, URC grant terms, ethics status, Hazel Jeremias's role, holder of the master copy, baseline version, how the two tracks share staff and costs, repository privacy.
+- WP1 brief stage done: checkpoint `cp-wp1-brief-01`; gate memo EM-002 sent. Until the lead answers, WP1 waits. If the lead chooses Option B, the team may work only on evidence before the freeze date: the policy instruments the draft relies on (compliance-frame-01 items 7.1 to 7.6), in the WP1 evidence file, scan then a separate verify call.
+- DOH guide (D-006): 36 findings; verification-01 gave 22 verified, 2 corrected, 12 not found (all Scribd-only). References in `project/sources/references.md`. The official "Health Workforce Planning Tool Kit" is asked of the lead in EM-002.
+- Still open from EM-001, not needed for EM-002: the URC grant's award letter and terms; ethics clearance status; repository privacy.
 - The lead's answer "Agree with all" is read as approving every proposal in EM-001: Option A, the brief fixes, the AI-use section, the three outcome dates, APA 7th edition and `<name>_v<YYYY-MM-DD>`. The O3 wording is kept as written.
 - The 2.0 draft in Drive (id `1-OqvCfhvrR9_0KpOYIZYVo-adgOhIeCK`) is edited by the ACRI team. Do not edit it. Compare its size and checksum with `project/sources/index.md` before any WP1 work, and ask the lead which version to freeze if it differs.
 - Sources: the Drive connector reads text only. Binary copies of the URC proposal and the response to reviewers are not in the repository (`project/sources/index.md`).
