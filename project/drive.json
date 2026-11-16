@@ -1,15 +1,65 @@
 {
-  "project_folder": {"id": "1mzcw94RDtHpjcu38S0U6AY-htuMdv2LG", "title": "gabay-hrh", "url": "https://drive.google.com/drive/folders/1mzcw94RDtHpjcu38S0U6AY-htuMdv2LG"},
-  "memos_folder": {"id": "1jikravS6Jx8ER2t93-wme3wFa1U-IeaE"},
-  "sources_folder": {"id": "1gMp5MwR377z1sr_XuoOyA1rjKqvHNGpU"},
-  "previous_versions_folder": {"id": "1GO1YTVseVru0gu0n5TjYj6ZS357CWNEK"},
-  "work_packages": {
-    "WP1": {"folder": {"id": "1GlQiRNr-XBsz0c0-DiKlt2k217aC48By", "title": "WP1 GabayHRH 2.0 proposal"}, "documents": {}}
+  "project_folder": {
+    "id": "1mzcw94RDtHpjcu38S0U6AY-htuMdv2LG",
+    "title": "gabay-hrh",
+    "url": "https://drive.google.com/drive/folders/1mzcw94RDtHpjcu38S0U6AY-htuMdv2LG"
   },
-  "register_sheet": {"id": "1C08msI-_jdJYtvQfkd6xb96nE-7vkKtGoQDIaHkCaT8", "tab": "gabay-hrh", "tab_sheet_id": 567033987},
-  "documents": {},
+  "memos_folder": {
+    "id": "1jikravS6Jx8ER2t93-wme3wFa1U-IeaE"
+  },
+  "sources_folder": {
+    "id": "1gMp5MwR377z1sr_XuoOyA1rjKqvHNGpU"
+  },
+  "previous_versions_folder": {
+    "id": "1GO1YTVseVru0gu0n5TjYj6ZS357CWNEK"
+  },
+  "work_packages": {
+    "WP1": {
+      "folder": {
+        "id": "1GlQiRNr-XBsz0c0-DiKlt2k217aC48By",
+        "title": "WP1 GabayHRH 2.0 proposal"
+      },
+      "documents": {}
+    }
+  },
+  "register_sheet": {
+    "id": "1C08msI-_jdJYtvQfkd6xb96nE-7vkKtGoQDIaHkCaT8",
+    "tab": "gabay-hrh",
+    "tab_sheet_id": 567033987
+  },
+  "documents": {
+    "read_me": {
+      "id": "1Ark5MIZT57rCo0lZd7vBU7niDmeakXmyT1H60cdgSaQ",
+      "work_package": "project"
+    },
+    "project_brief": {
+      "id": "1mPeHTZDzQ1b6pFQibncFSLBd9YzTxwKCOMYnr8NIURw",
+      "source": "project/brief.md",
+      "work_package": "project",
+      "mirrored": "2026-11-16"
+    },
+    "results_chain": {
+      "id": "17EwekdIpPiSR9AMTPemlX45Bn3DlQdL5z8x53eSf36g",
+      "source": "project/results.md",
+      "work_package": "project",
+      "mirrored": "2026-11-16"
+    },
+    "EM-001": {
+      "id": "1cfROynq9-SmYyQOQ4cDbg77KSpBRaYF-Jxv1isLiWV4",
+      "source": "project/escalations/EM-001.md",
+      "work_package": "project",
+      "mirrored": "2026-11-16",
+      "folder": "Memos"
+    }
+  },
   "external_sources": {
-    "gabay_hrh_folder": {"id": "1gQLpugglGXGCvw-QCFQJxpUtFdQdLhYL", "note": "The ACRI team's working folder. Read only for this team."},
-    "gabayhrh_2_0_draft": {"id": "1-OqvCfhvrR9_0KpOYIZYVo-adgOhIeCK", "work_package": "WP1"}
+    "gabay_hrh_folder": {
+      "id": "1gQLpugglGXGCvw-QCFQJxpUtFdQdLhYL",
+      "note": "The ACRI team's working folder. Read only for this team."
+    },
+    "gabayhrh_2_0_draft": {
+      "id": "1-OqvCfhvrR9_0KpOYIZYVo-adgOhIeCK",
+      "work_package": "WP1"
+    }
   }
 }
