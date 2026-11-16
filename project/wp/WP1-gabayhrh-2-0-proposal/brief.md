@@ -53,7 +53,10 @@ To be set by the lead. The comments in the baseline ask for: costs of the health
 Decided by the lead at the frame gate:
 
 - The commitment that GabayHRH 2.0 findings are presented first to the partner LGUs (D-005).
-- How the proposed "Guide for Health Workforce Planning and Investment" differs from and builds on the guide the DOH has already developed for LGUs (D-006). The evidence scan for it is under way; only verified findings may be cited.
+- How the proposed "Guide for Health Workforce Planning and Investment" differs from and builds on the guidance the DOH has already developed for LGUs (D-006). Verified so far (`project/sources/references.md`):
+  - DOH Annex C-2, "Minimum recommendations for staffing complement of public health facilities and health offices in local government units" (2022), is advisory guidance to LGUs on staffing ratios and the phased creation of positions. Its text does not mention the personal services limitation, an ordinance, income class, the budget calendar or plantilla (E-007 to E-013).
+  - A DOH "Health Workforce Planning Tool Kit" exists (E-001). Its content is not verified: the only copies reached were user uploads that did not load for verification.
+  - The draft may state what the project adds only as far as these findings go. A claim that no DOH guidance covers the step from a staffing gap to a funded position needs the official tool kit first.
 
 ## Must avoid
 
