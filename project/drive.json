@@ -60,6 +60,13 @@
       "holds": [
         "EM-001"
       ]
+    },
+    "EM-002": {
+      "id": "1Bls8rj8l7vInzzx-QNjsfbLLy2tujed3q5zNBQEkccM",
+      "source": "project/escalations/EM-002.md",
+      "work_package": "WP1",
+      "mirrored": "2026-11-16",
+      "folder": "Memos"
     }
   },
   "external_sources": {

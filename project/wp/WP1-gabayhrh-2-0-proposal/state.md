@@ -3,7 +3,7 @@ Title: GabayHRH 2.0 proposal
 Type: revision
 Started: 2026-11-16
 Stage: brief
-Status: waiting (since 2026-11-16)
+Status: active
 Waits for: none
 Master copy: Word file in Google Drive, id 1-OqvCfhvrR9_0KpOYIZYVo-adgOhIeCK (held by the ACRI team until the lead sets the holder at the brief gate; this team does not edit it)
 Due: (optional, for a playbook with dated stages: the current stage's due date, YYYY-MM-DD)
@@ -12,6 +12,7 @@ Due: (optional, for a playbook with dated stages: the current stage's due date, 
 
 - Waits on the lead: EM-002, the brief gate (brief, baseline, holder of the master copy)
 - After the answer: record it (`memo close`, D-007); freeze the baseline on the date the lead names, save it in `project/sources/` with its checksum and counts, and set the `Master copy:` line; then stage 2, Diagnose
+- Compliance check against the funder's rules: deferred until the lead names a funder (D-008). Run it at the first stage after the funder's call or template is saved in `project/sources/`.
 - Before the freeze, if the lead chooses Option B: scan and verify the policy instruments the draft relies on (`project/reviews/compliance-frame-01.md`, items 7.1 to 7.6)
 
 ## Notes for the next run
