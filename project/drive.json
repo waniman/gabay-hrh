@@ -33,23 +33,26 @@
       "work_package": "project"
     },
     "project_brief": {
-      "id": "1mPeHTZDzQ1b6pFQibncFSLBd9YzTxwKCOMYnr8NIURw",
+      "id": "1_wGThsuzYOY9fSXwRON7zuhIyROyJOrPnpNYUXvaaAE",
       "source": "project/brief.md",
       "work_package": "project",
-      "mirrored": "2026-11-16"
+      "mirrored": "2026-11-16",
+      "version": "approved (EM-001)"
     },
     "results_chain": {
-      "id": "17EwekdIpPiSR9AMTPemlX45Bn3DlQdL5z8x53eSf36g",
+      "id": "1ihlFdAf2EaCi_p79GRNT8buZX-0zPhtsVd83iehjsbc",
       "source": "project/results.md",
       "work_package": "project",
-      "mirrored": "2026-11-16"
-    },
-    "EM-001": {
-      "id": "1cfROynq9-SmYyQOQ4cDbg77KSpBRaYF-Jxv1isLiWV4",
-      "source": "project/escalations/EM-001.md",
-      "work_package": "project",
       "mirrored": "2026-11-16",
-      "folder": "Memos"
+      "version": "approved (EM-001)"
+    },
+    "decided_memos": {
+      "id": "1xy_0V8DDg22QsKsiqEV4uk5Wy6PBcVXxG_2NmgzKjOM",
+      "folder": "Memos",
+      "work_package": "project",
+      "holds": [
+        "EM-001"
+      ]
     }
   },
   "external_sources": {
@@ -61,5 +64,10 @@
       "id": "1-OqvCfhvrR9_0KpOYIZYVo-adgOhIeCK",
       "work_package": "WP1"
     }
+  },
+  "previous_versions": {
+    "project_brief_2026-11-16_before_approval": "1mPeHTZDzQ1b6pFQibncFSLBd9YzTxwKCOMYnr8NIURw",
+    "results_chain_2026-11-16_before_approval": "17EwekdIpPiSR9AMTPemlX45Bn3DlQdL5z8x53eSf36g",
+    "EM-001_decided": "1cfROynq9-SmYyQOQ4cDbg77KSpBRaYF-Jxv1isLiWV4"
   }
 }
