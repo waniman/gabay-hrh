@@ -47,6 +47,11 @@ To be set by the lead. No funder, call document or template is recorded.
 
 To be set by the lead. The comments in the baseline ask for: costs of the health workforce learning exchange summit; honoraria for a WISN expert; an administrative cost of 7 to 11 percent of the total project cost; field researchers based in the provinces; and a decision on whether expert working group members receive honoraria (2.0 draft, 2026-11-16).
 
+Decided by the lead at the frame gate:
+
+- The commitment that GabayHRH 2.0 findings are presented first to the partner LGUs (D-005).
+- How the proposed "Guide for Health Workforce Planning and Investment" differs from and builds on the guide the DOH has already developed for LGUs (D-006). The evidence scan for it is under way; only verified findings may be cited.
+
 ## Must avoid
 
 - Naming the LGUs in talks as sites or partners before they commit (project brief).

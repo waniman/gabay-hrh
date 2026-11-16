@@ -1,6 +1,6 @@
 # Project brief
 
-Approved by the lead: not yet
+Approved by the lead: 2026-11-16 (EM-001, D-004)
 
 This brief covers the project as a whole. Each work package has its own brief in `project/wp/<WPn-name>/brief.md`, and the results chain is in `project/results.md`. Facts below come from the files listed in `project/sources/index.md`. Each data gap is stated where the missing fact would be used.
 
@@ -41,7 +41,7 @@ The team uses outputs, outcomes, impact and assumptions (`core/results-chain.md`
 - Final deadline: not recorded for either track. The pilot runs four quarters (URC proposal, 2026). The 2.0 draft ends in May 2028 and marks its dates tentative (2.0 draft, 2026-11-16).
 - Limits on the approach:
   - No data collection before ethics clearance and a signed Memorandum of Understanding with the LGU (URC proposal, 2026; Concept note, 2026).
-  - No pilot finding leaves the team before it is presented to the Municipality of Paracelis. The URC proposal commits to present findings to the partner LGU before external dissemination (URC proposal, 2026). This binds the article, the policy brief, the validation workshop and any use of pilot findings in the 2.0 proposal.
+  - No finding leaves the team before it is presented to the LGU it concerns (D-005). Findings of the URC pilot go first to the Municipality of Paracelis, as the URC proposal commits (URC proposal, 2026). Findings of GabayHRH 2.0 go first to its partner LGUs. This binds the article, the policy brief, the validation workshop and any use of pilot findings in the 2.0 proposal.
   - No data collection at a GabayHRH 2.0 site before an ethics clearance that names that site.
   - Raw data that can identify a person never enter this repository. Only de-identified, derived files are committed.
   - No new analysis or statistical test runs before the lead approves it (`core/methods-rules.md`).
@@ -49,8 +49,8 @@ The team uses outputs, outcomes, impact and assumptions (`core/results-chain.md`
 ## Style
 
 - Style guide: `style/voice-technical-writing.md` for the proposal, the diagnostic profile, the guide and the policy brief; the journal's author guidelines for the article.
-- Citation style: author-date, APA, as in the URC proposal and its reference list. To be confirmed by the lead.
-- Version naming: `<name>_v<YYYY-MM-DD>`. To be confirmed by the lead.
+- Citation style: author-date, APA 7th edition, as in the URC proposal and its reference list (EM-001).
+- Version naming: `<name>_v<YYYY-MM-DD>` (EM-001).
 - Names: "Gabay HRH" for the project and the pilot; "GabayHRH 2.0" for the expansion, as the draft's title writes it.
 
 ## AI use
@@ -64,6 +64,7 @@ Proposed for the lead's decision at the frame gate (compliance check, item 5.4).
 
 ## Must include
 
+- A comparison with the guide for LGUs on health workforce planning that the DOH has already developed, which the lead reported at the frame gate (D-006). The guide and the outputs that propose a new guide (WP1, WP3) state what the DOH guide covers and what the project adds. Its title, issuer and scope enter the text only once verified in `project/wp/WP1-gabayhrh-2-0-proposal/work/evidence.md`.
 - The WHO Workload Indicators of Staffing Need (WISN) method for staffing requirements (URC proposal, 2026).
 - The governance analysis of how staffing evidence becomes, or does not become, a funded position (URC proposal, 2026).
 - The four conditioning variables carried into each decision point of the guide: income classification, geographically isolated and disadvantaged area status, headroom under the personal services limitation, and local health system integration under the Universal Health Care Act (Republic Act No. 11223) (Response to RCWI comments, 2026).

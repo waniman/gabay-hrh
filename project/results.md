@@ -1,8 +1,8 @@
 # Results chain
 
-Approved by the lead: not yet
+Approved by the lead: 2026-11-16 (EM-001, D-004)
 
-One page. Terms and rules: `core/results-chain.md`. Sources are listed in `project/sources/index.md`. The dates are proposed for the lead's approval; the note under each outcome states the basis.
+One page. Terms and rules: `core/results-chain.md`. Sources are listed in `project/sources/index.md`. The lead approved the dates at the frame gate (EM-001); the note under each outcome states the basis.
 
 ## Impact
 

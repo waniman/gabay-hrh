@@ -1,6 +1,6 @@
 Project: Gabay HRH
 Started: 2026-11-16
-Stage: frame
+Stage: delivery
 Lead: Juhani Capeding
 Partners: Hazel Ivy M. Jeremias (ACRI; role on this team to be confirmed, EM-001); Municipality of Paracelis; DOH HHRDB; LGUs in talks for GabayHRH 2.0 (none committed)
 Order: by number
@@ -11,7 +11,11 @@ Each work package keeps its own state in `project/wp/<WPn-name>/state.md`. `pyth
 
 ## Waiting on the lead
 
-- EM-001. Gate: approve the project frame (needed by 2026-11-18). It also asks nine facts (2.0 funder and deadline, URC grant terms, ethics status, outcome dates, people, baseline version, style, overlap of the two tracks, repository privacy) and carries the compliance findings.
+- Nothing open. EM-001 (project frame) approved on 2026-11-16 (D-004, D-005, D-006). The WP1 brief gate memo goes out once the DOH guide scan is verified.
+
+## Work packages approved in the frame, not yet created
+
+WP2 Paracelis LGU HRH diagnostic profile; WP3 Guide for LGU health workforce planning and investment; WP4 Journal article (journal-article playbook); WP5 Policy brief. `wp add` needs a playbook for each, and WP2, WP3 and WP5 have none. Create all four together, in this order, once their playbooks exist, so the numbers match the frame (EM-001). Each waits for the pilot's data in 2027.
 
 ## Lessons in force
 
@@ -19,8 +23,9 @@ Each work package keeps its own state in `project/wp/<WPn-name>/state.md`. `pyth
 
 ## Notes for the next run
 
-- Frame drafted on 2026-11-16 and sent as EM-001 (`project/brief.md`, `project/results.md`). Checkpoint `cp-project-frame-01`.
-- After the lead approves: record the answer (`memo close`, D-004), set `Approved by the lead:` in the brief and the results chain, set `Stage: delivery`, create WP2 to WP5 with `wp add --ref EM-001` (or as the lead chooses), then start the WP1 brief stage. `project/wp/WP1-gabayhrh-2-0-proposal/brief.md` holds a first fill.
+- Frame approved 2026-11-16 (EM-001). Checkpoint `cp-project-frame-02`. Stage: delivery.
+- WP1 is at its brief stage. Open: the evidence scan on the DOH guide for LGUs (D-006), its verification by a separate call, then the brief gate memo (EM-002) with the facts EM-001 asked and the lead did not supply: 2.0 funder and deadline, URC grant terms, ethics status, Hazel Jeremias's role, holder of the master copy, baseline version, how the two tracks share staff and costs, repository privacy.
+- The lead's answer "Agree with all" is read as approving every proposal in EM-001: Option A, the brief fixes, the AI-use section, the three outcome dates, APA 7th edition and `<name>_v<YYYY-MM-DD>`. The O3 wording is kept as written.
 - The 2.0 draft in Drive (id `1-OqvCfhvrR9_0KpOYIZYVo-adgOhIeCK`) is edited by the ACRI team. Do not edit it. Compare its size and checksum with `project/sources/index.md` before any WP1 work, and ask the lead which version to freeze if it differs.
 - Sources: the Drive connector reads text only. Binary copies of the URC proposal and the response to reviewers are not in the repository (`project/sources/index.md`).
 - Branch: the project files are on `claude/hopeful-rubin-gntgwb`. They are not on `main` until the lead merges the branch. Memo links use the branch.
