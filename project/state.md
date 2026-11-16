@@ -13,6 +13,13 @@ Each work package keeps its own state in `project/wp/<WPn-name>/state.md`. `pyth
 
 - EM-002 (WP1). Gate: approve the WP1 brief, the baseline and who holds the master copy (needed by 2026-11-20). Recommends Option B: the ACRI team finishes its drafting pass, the lead names a freeze date, then the master moves to the repository (D-007, proposed). Also asks seven facts.
 
+Facts still open from EM-001, outside any open memo (weekly health check, 2026-11-16):
+
+- URC grant: award letter, full name, start and end dates, reporting rules. Needed by 2026-12-15, before pilot inception (Phase 1 runs to February 2027; Concept note, 2026).
+- Ethics clearance status of the pilot. Needed by 2026-12-15, for the same reason.
+- Role of Hazel Ivy M. Jeremias on this team. Asked again in EM-002, fact 5.
+- Whether the repository `waniman/gabay-hrh` is private. Needed now: it holds the unpublished 2.0 draft. A check from this session could not tell (the session's proxy is authenticated).
+
 ## Work packages approved in the frame, not yet created
 
 WP2 Paracelis LGU HRH diagnostic profile; WP3 Guide for LGU health workforce planning and investment; WP4 Journal article (journal-article playbook); WP5 Policy brief. `wp add` needs a playbook for each, and WP2, WP3 and WP5 have none. Create all four together, in this order, once their playbooks exist, so the numbers match the frame (EM-001). Each waits for the pilot's data in 2027.
@@ -26,7 +33,7 @@ WP2 Paracelis LGU HRH diagnostic profile; WP3 Guide for LGU health workforce pla
 - Frame approved 2026-11-16 (EM-001). Checkpoint `cp-project-frame-02`. Stage: delivery.
 - WP1 brief stage done: checkpoint `cp-wp1-brief-01`; gate memo EM-002 sent. Until the lead answers, WP1 waits. If the lead chooses Option B, the team may work only on evidence before the freeze date: the policy instruments the draft relies on (compliance-frame-01 items 7.1 to 7.6), in the WP1 evidence file, scan then a separate verify call.
 - DOH guide (D-006): 36 findings; verification-01 gave 22 verified, 2 corrected, 12 not found (all Scribd-only). References in `project/sources/references.md`. The official "Health Workforce Planning Tool Kit" is asked of the lead in EM-002.
-- Still open from EM-001, not needed for EM-002: the URC grant's award letter and terms; ethics clearance status; repository privacy.
+- Weekly health check 2026-11-16: green, 0 red, 0 amber (`project/health/2026-11-16.md`). Acted on: open EM-001 facts listed above with dates; AI-use section marked approved; WP1 working deadline proposed in EM-002 (2026-12-18). WP1 waits on EM-002, recorded in its open tasks. Next check 2026-11-23.
 - The lead's answer "Agree with all" is read as approving every proposal in EM-001: Option A, the brief fixes, the AI-use section, the three outcome dates, APA 7th edition and `<name>_v<YYYY-MM-DD>`. The O3 wording is kept as written.
 - The 2.0 draft in Drive (id `1-OqvCfhvrR9_0KpOYIZYVo-adgOhIeCK`) is edited by the ACRI team. Do not edit it. Compare its size and checksum with `project/sources/index.md` before any WP1 work, and ask the lead which version to freeze if it differs.
 - Sources: the Drive connector reads text only. Binary copies of the URC proposal and the response to reviewers are not in the repository (`project/sources/index.md`).

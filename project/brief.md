@@ -55,7 +55,7 @@ The team uses outputs, outcomes, impact and assumptions (`core/results-chain.md`
 
 ## AI use
 
-Proposed for the lead's decision at the frame gate (compliance check, item 5.4).
+Approved by the lead with the project frame (EM-001, D-004). The memo stated that approving the frame approves this section.
 
 - AI agents draft and check the outputs. The lead and the named authors direct the argument, the interpretation and the conclusions, and approve every version that leaves the team.
 - Each work package keeps an `ai-use.md` from its brief stage, recording what the agents did.
